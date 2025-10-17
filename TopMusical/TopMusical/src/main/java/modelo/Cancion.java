@@ -99,6 +99,6 @@ public class Cancion implements Comparable<Cancion> {
 
     @Override
     public int compareTo(Cancion o) {
-        return posActual - o.posActual;
+        return o.posActual - this.posActual;
     }
 }
